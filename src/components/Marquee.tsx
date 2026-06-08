@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const items = [
-  "Cinematic Web",
-  "Framer Motion",
-  "3D Parallax",
-  "60fps Always",
-  "Design Engineers",
+  "AI Citations",
+  "ChatGPT & Perplexity",
+  "Google AI Overviews",
+  "GEO + AEO Audits",
+  "llms.txt & Schema",
   "GPTShopExpert",
 ];
 

@@ -6,32 +6,32 @@ export default function Footer() {
           <div className="footer__logo">
             GPTShop<em>Expert</em>
           </div>
-          <p>A design &amp; engineering studio. Remote first. Worldwide.</p>
+          <p>A GEO &amp; AEO agency. Remote first. Worldwide.</p>
         </div>
         <div className="footer__cols">
           <div>
-            <h4>Studio</h4>
-            <a href="#work">Work</a>
-            <a href="#skills">Skills</a>
+            <h4>Agency</h4>
+            <a href="#work">Results</a>
+            <a href="#skills">Capabilities</a>
             <a href="#services">Services</a>
           </div>
           <div>
             <h4>Contact</h4>
             <a href="mailto:hello@gptshopexpert.com">hello@gptshopexpert.com</a>
-            <a href="#">Book a call</a>
-            <a href="#">Careers</a>
+            <a href="#contact">Free audit</a>
+            <a href="#services">For agencies</a>
           </div>
           <div>
             <h4>Elsewhere</h4>
-            <a href="#">Dribbble</a>
-            <a href="#">Awwwards</a>
-            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">X</a>
+            <a href="#">GitHub</a>
           </div>
         </div>
       </div>
       <div className="footer__bottom">
-        <span>© 2026 GPTShopExpert Studio</span>
-        <span>Forged in Framer Motion · 60fps · zero-compromise</span>
+        <span>© 2026 GPTShopExpert</span>
+        <span>Generative Engine Optimization · AI citations · measured</span>
       </div>
     </footer>
   );

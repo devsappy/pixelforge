@@ -5,33 +5,33 @@ type P = { name: string; tag: string; title: string; desc: string; accent: strin
 
 const projects: P[] = [
   {
-    name: "NOIR Fragrance",
-    tag: "Luxury fragrance · +312% conversions",
-    title: "NOIR Studio",
-    desc: "Cinematic product story with scroll-driven color grading.",
+    name: "NOIR Skincare",
+    tag: "DTC skincare · cited in 40+ AI answers",
+    title: "NOIR",
+    desc: "From invisible to the brand ChatGPT recommends first in its niche.",
     accent: "#8b5cf6",
   },
   {
-    name: "Helios Analytics",
-    tag: "SaaS analytics · 98 Lighthouse",
+    name: "Helios SaaS",
+    tag: "B2B SaaS · GEO score 38 → 91",
     title: "Helios",
-    desc: "Realtime dashboards with 3D data storytelling.",
+    desc: "Schema, llms.txt, and answer blocks that Perplexity now quotes.",
     accent: "#06b6d4",
     variant: "alt",
   },
   {
-    name: "Atelier 9",
-    tag: "Architecture · Awwwards SOTD",
-    title: "Atelier 9",
-    desc: "Scroll-driven 3D model reveal for a boutique practice.",
+    name: "Atelier Legal",
+    tag: "Law firm · 3× AI-sourced leads",
+    title: "Atelier",
+    desc: "Local entity and E-E-A-T overhaul that AI Overviews now trust.",
     accent: "#f472b6",
     variant: "b",
   },
   {
-    name: "Kairo Banking",
-    tag: "Fintech · 2.1s LCP on 3G",
+    name: "Kairo Fintech",
+    tag: "Fintech · featured in Google AI Overviews",
     title: "Kairo",
-    desc: "Trust-first fintech with motion that feels considered.",
+    desc: "Authority content engineered to be the source AI cites.",
     accent: "#34d399",
     variant: "c",
   },
@@ -57,11 +57,11 @@ export default function Journey() {
         viewport={{ once: true, margin: "-120px" }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        <span className="section__eyebrow">02 · Selected work</span>
+        <span className="section__eyebrow">02 · Selected results</span>
         <h2 className="section__title">
           Scroll <em>sideways.</em>
           <br />
-          Discover what we ship.
+          See who AI now cites.
         </h2>
       </motion.header>
 

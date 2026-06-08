@@ -25,20 +25,20 @@ export default function Stats() {
   return (
     <section className="stats">
       <div className="stat">
-        <Counter target={98} />
-        <span>Avg. Lighthouse</span>
+        <Counter target={94} />
+        <span>Avg. GEO score we deliver</span>
       </div>
       <div className="stat">
         <Counter target={312} suffix="%" />
-        <span>Avg. conversion lift</span>
+        <span>Lift in AI citations</span>
       </div>
       <div className="stat">
-        <Counter target={60} suffix="fps" />
-        <span>Always &amp; only</span>
+        <Counter target={5} />
+        <span>AI engines optimized for</span>
       </div>
       <div className="stat">
         <Counter target={24} suffix="/7" />
-        <span>Async channel</span>
+        <span>Citation monitoring</span>
       </div>
     </section>
   );

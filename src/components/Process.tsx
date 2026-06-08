@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import Engine from "./Engine";
 
 const steps = [
-  { n: "01", t: "Discover", d: "We interview, audit, and define the one metric that matters." },
-  { n: "02", t: "Design", d: "Motion-first mockups in Figma + Framer. Clickable within a week." },
-  { n: "03", t: "Forge", d: "TypeScript, Next.js, Framer Motion. Previews on every commit." },
-  { n: "04", t: "Launch", d: "QA, Lighthouse, WCAG, SEO, handoff. You ship with confidence." },
+  { n: "01", t: "Audit", d: "We score your GEO/AEO and pinpoint why AI isn't citing you yet." },
+  { n: "02", t: "Optimize", d: "Schema, llms.txt, content structure, and crawler access — fixed." },
+  { n: "03", t: "Build", d: "Where needed, a fast server-rendered site engineered to be cited." },
+  { n: "04", t: "Monitor", d: "Track citations across ChatGPT, Perplexity & AI Overviews. Iterate." },
 ];
 
 export default function Process() {

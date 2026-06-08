@@ -36,13 +36,13 @@ export default function Nav() {
         </span>
       </a>
       <nav className="nav__links" aria-label="Primary">
-        <a href="#work">Work</a>
-        <a href="#skills">Skills</a>
+        <a href="#work">Results</a>
+        <a href="#skills">Capabilities</a>
         <a href="#services">Services</a>
         <a href="#process">Process</a>
       </nav>
       <a href="#contact" className="nav__cta">
-        Start a project
+        Free audit
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
           <path d="M3 11 L11 3 M11 3 H5 M11 3 V9" stroke="currentColor" strokeWidth="1.5" />
         </svg>

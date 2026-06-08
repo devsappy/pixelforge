@@ -14,9 +14,9 @@ type Skill = {
 const skills: Skill[] = [
   {
     num: "01",
-    title: "UI / UX Design",
-    desc: "Wireframes, prototypes, design systems. Figma first, Framer fast.",
-    tags: ["Figma", "Framer", "Design Systems"],
+    title: "AI Citability",
+    desc: "Restructure pages so ChatGPT, Claude, and Perplexity quote you directly.",
+    tags: ["Answer Blocks", "Quotability", "Extraction"],
     accent: "#8b5cf6",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -28,9 +28,9 @@ const skills: Skill[] = [
   },
   {
     num: "02",
-    title: "Frontend Engineering",
-    desc: "TypeScript, React, Next.js. Accessible, semantic, lightning fast.",
-    tags: ["React", "Next.js", "TypeScript"],
+    title: "Technical SEO",
+    desc: "Crawlability, indexing, and Core Web Vitals — the base AI still relies on.",
+    tags: ["Crawl", "Index", "CWV"],
     accent: "#06b6d4",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -41,9 +41,9 @@ const skills: Skill[] = [
   },
   {
     num: "03",
-    title: "Motion & 3D",
-    desc: "Framer Motion, GSAP, Three.js, Spline. Movement with meaning.",
-    tags: ["Framer Motion", "GSAP", "Three.js"],
+    title: "Schema & Structured Data",
+    desc: "JSON-LD that tells engines exactly who and what your business is.",
+    tags: ["JSON-LD", "Schema.org", "Rich Results"],
     accent: "#f472b6",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -54,9 +54,9 @@ const skills: Skill[] = [
   },
   {
     num: "04",
-    title: "Backend & APIs",
-    desc: "Node, Edge functions, tRPC, REST, GraphQL. Data that doesn't drag.",
-    tags: ["Node.js", "tRPC", "PostgreSQL"],
+    title: "llms.txt & AI Crawlers",
+    desc: "Open the door to GPTBot, ClaudeBot, and PerplexityBot — on purpose.",
+    tags: ["llms.txt", "robots.txt", "AI Bots"],
     accent: "#22d3ee",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -67,9 +67,9 @@ const skills: Skill[] = [
   },
   {
     num: "05",
-    title: "Brand & Identity",
-    desc: "Logos, voice, visual systems. A brand you'd want to wear.",
-    tags: ["Strategy", "Logo", "Guidelines"],
+    title: "Content & E-E-A-T",
+    desc: "Experience, expertise, authority, trust — the signals AI weighs most.",
+    tags: ["E-E-A-T", "Depth", "Authorship"],
     accent: "#a78bfa",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -80,9 +80,9 @@ const skills: Skill[] = [
   },
   {
     num: "06",
-    title: "CMS & Headless",
-    desc: "Sanity, Contentful, Payload. Your team edits without fear.",
-    tags: ["Sanity", "Payload", "Contentful"],
+    title: "Brand Authority",
+    desc: "Mentions across the web that make AI recognize and trust your entity.",
+    tags: ["Mentions", "Entity", "sameAs"],
     accent: "#34d399",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -93,9 +93,9 @@ const skills: Skill[] = [
   },
   {
     num: "07",
-    title: "E-Commerce",
-    desc: "Shopify Hydrogen, Stripe, custom checkouts. Sell beautifully.",
-    tags: ["Shopify", "Stripe", "Hydrogen"],
+    title: "Platform Optimization",
+    desc: "Tuned for AI Overviews, ChatGPT, Perplexity, Gemini, and Copilot.",
+    tags: ["AI Overviews", "ChatGPT", "Gemini"],
     accent: "#fb923c",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -106,9 +106,9 @@ const skills: Skill[] = [
   },
   {
     num: "08",
-    title: "Performance",
-    desc: "Core Web Vitals, CLS < 0.05, INP under 200ms. We obsess so you don't.",
-    tags: ["Lighthouse", "CWV", "Edge"],
+    title: "GEO Audits",
+    desc: "A scored 0–100 report with a prioritized, no-nonsense fix plan.",
+    tags: ["Audit", "Score", "Roadmap"],
     accent: "#facc15",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -119,9 +119,9 @@ const skills: Skill[] = [
   },
   {
     num: "09",
-    title: "Accessibility",
-    desc: "WCAG 2.2 AA. Keyboard, screen reader, reduced motion — all day.",
-    tags: ["WCAG", "ARIA", "Audit"],
+    title: "Citation Monitoring",
+    desc: "Track where, when, and how often AI engines cite your business.",
+    tags: ["Tracking", "Share of Voice", "Alerts"],
     accent: "#f87171",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -132,9 +132,9 @@ const skills: Skill[] = [
   },
   {
     num: "10",
-    title: "SEO & GEO",
-    desc: "Technical SEO, schema, llms.txt. Rank on Google and on ChatGPT.",
-    tags: ["Schema", "GEO", "Core Vitals"],
+    title: "GEO-Ready Websites",
+    desc: "Fast, server-rendered sites engineered to be cited from day one.",
+    tags: ["Next.js", "SSR", "Schema"],
     accent: "#60a5fa",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -145,9 +145,9 @@ const skills: Skill[] = [
   },
   {
     num: "11",
-    title: "Copy & Content",
-    desc: "Headlines that hit. Microcopy that converts. Voice you can hear.",
-    tags: ["Strategy", "Voice", "Microcopy"],
+    title: "Answer-First Content",
+    desc: "Copy written the way humans ask and AI answers — clear, sourced, quotable.",
+    tags: ["Q&A", "FAQ", "Microcopy"],
     accent: "#c084fc",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -157,9 +157,9 @@ const skills: Skill[] = [
   },
   {
     num: "12",
-    title: "Analytics & CRO",
-    desc: "Plausible, PostHog, experiments. Evidence-led design that earns.",
-    tags: ["PostHog", "A/B", "Funnels"],
+    title: "Agency White-Label",
+    desc: "We run GEO behind the scenes for your clients, under your brand.",
+    tags: ["White-Label", "Reseller", "Reporting"],
     accent: "#4ade80",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -181,12 +181,12 @@ export default function Skills() {
       >
         <span className="section__eyebrow">01 · Capabilities</span>
         <h2 className="section__title">
-          A full stack of craft. <br />
-          <em>From first pixel to production.</em>
+          A full GEO stack. <br />
+          <em>From audit to AI citation.</em>
         </h2>
         <p className="section__sub">
-          Twelve disciplines under one roof. No handoffs, no excuses — every part of your
-          website is shaped by people who care.
+          Twelve disciplines under one roof — every lever that decides whether AI
+          engines find, trust, and cite your business.
         </p>
       </motion.header>
 

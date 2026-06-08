@@ -43,30 +43,30 @@ export default function Hero() {
       >
         <div className="hero__text">
           <motion.span className="hero__eyebrow" variants={rise}>
-            <span className="dot" /> EST · 2021 / STUDIO
+            <span className="dot" /> GEO + AEO AGENCY · EST 2021
           </motion.span>
 
           <motion.h1 className="hero__title" style={{ y: yTitle }}>
             <motion.span className="hero__line" variants={rise}>
-              We don't just
+              Your customers
             </motion.span>
             <motion.span className="hero__line hero__line--serif" variants={rise}>
-              build websites.
+              now ask AI.
             </motion.span>
             <motion.span className="hero__line hero__line--outline" variants={rise}>
-              We forge them.
+              We make it cite you.
             </motion.span>
           </motion.h1>
 
           <motion.p className="hero__sub" variants={rise}>
-            GPTShopExpert is a design &amp; engineering studio. We turn brands into
-            precise, high-performance websites — engineered end-to-end, shipped at
-            60fps, measured on every metric.
+            GPTShopExpert is a GEO &amp; AEO agency. We get your business found and
+            quoted by ChatGPT, Perplexity, Gemini, and Google AI Overviews — through
+            citation audits, schema, llms.txt, and websites engineered to be the answer.
           </motion.p>
 
           <motion.div className="hero__ctas" variants={rise}>
             <a href="#contact" className="btn btn--primary">
-              <span>Book a call</span>
+              <span>Get a free AI audit</span>
               <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                 <path
                   d="M3 13 L13 3 M13 3 H6 M13 3 V10"
@@ -76,7 +76,7 @@ export default function Hero() {
               </svg>
             </a>
             <a href="#work" className="btn btn--ghost">
-              <span>See the work</span>
+              <span>See the results</span>
             </a>
           </motion.div>
         </div>

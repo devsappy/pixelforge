@@ -1,36 +1,36 @@
 # GPTShopExpert
 
-> GPTShopExpert is a small, remote-first design & engineering studio that builds cinematic, high-performance websites. The team handles strategy, design, motion, and full-stack engineering end-to-end — no juniors, no account managers, no handoffs.
+> GPTShopExpert is a remote-first GEO & AEO agency. We get businesses found, trusted, and cited by AI engines — ChatGPT, Perplexity, Gemini, Google AI Overviews, and Bing Copilot — through citation audits, structured data, llms.txt, content, and GEO-ready websites.
 
-GPTShopExpert designs and engineers websites in-house, from first pixel to production. Typical projects ship on Next.js with a headless CMS, run at 60fps, and are measured against Core Web Vitals (CLS < 0.05, INP under 200ms) and WCAG 2.2 AA accessibility.
+GPTShopExpert specializes in Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO): the practice of structuring a business's website and content so AI systems can discover, understand, quote, and recommend it. We serve businesses that want to grow through AI search, and agencies that need a white-label GEO partner for their clients.
 
 ## Services
 
-- [Signature websites](https://gptshopexpert.com/#services): Full strategy → design → build over 6–10 weeks. Discovery workshop, motion-first design in Figma & Framer, Next.js build on a headless CMS, performance & accessibility audit. From $18k.
-- [Landing pages](https://gptshopexpert.com/#services): One conversion-focused page in 10 days. Copy & layout workshop, cinematic hero & scroll story, A/B-ready component system, analytics wiring. From $6k.
-- [Growth & iteration retainer](https://gptshopexpert.com/#services): Ongoing design + engineering capacity. Dedicated designer & engineer, weekly async ships, quarterly performance & SEO, direct Slack channel. From $9k/mo.
+- [AI Citation Audit](https://gptshopexpert.com/#services): A full GEO + AEO audit with a scored 0–100 report and prioritized fix plan — citability and schema analysis, AI crawler and llms.txt access checks, and platform readiness for ChatGPT, Perplexity, and Gemini. Delivered in 5 days. From $1.5k.
+- [GEO-Ready Websites](https://gptshopexpert.com/#services): A fast, server-rendered website engineered to be found and cited by AI from day one — entity and keyword mapping, full schema markup, llms.txt and crawler access, and answer-first content. 4–8 weeks. From $12k.
+- [Ongoing GEO Management](https://gptshopexpert.com/#services): Monthly optimization and content, citation and share-of-voice tracking, schema and technical upkeep, and white-label client reporting. From $3k/mo.
 
 ## Capabilities
 
-- UI/UX design (Figma, Framer, design systems)
-- Frontend engineering (TypeScript, React, Next.js)
-- Motion & 3D (Framer Motion, GSAP, Three.js, Spline)
-- Backend & APIs (Node, edge functions, tRPC, REST, GraphQL, PostgreSQL)
-- Brand & identity (strategy, logo, guidelines)
-- CMS & headless (Sanity, Contentful, Payload)
-- E-commerce (Shopify Hydrogen, Stripe, custom checkouts)
-- Performance (Core Web Vitals, Lighthouse, edge)
-- Accessibility (WCAG 2.2 AA, ARIA, audits)
-- SEO & GEO (technical SEO, schema, llms.txt)
-- Copy & content (headlines, microcopy, voice)
-- Analytics & CRO (Plausible, PostHog, A/B testing)
+- AI citability (answer blocks, quotability, passage extraction)
+- Technical SEO (crawlability, indexing, Core Web Vitals)
+- Schema & structured data (JSON-LD, Schema.org, rich results)
+- llms.txt & AI crawler access (GPTBot, ClaudeBot, PerplexityBot, Google-Extended)
+- Content & E-E-A-T (experience, expertise, authoritativeness, trust)
+- Brand authority (web mentions, entity recognition, sameAs)
+- Platform optimization (Google AI Overviews, ChatGPT, Perplexity, Gemini, Bing Copilot)
+- GEO audits (scored reports and roadmaps)
+- Citation monitoring (tracking, share of voice, alerts)
+- GEO-ready websites (Next.js, server-side rendering, schema)
+- Answer-first content (Q&A, FAQ, sourced and quotable copy)
+- Agency white-label (reseller GEO services and reporting)
 
 ## Process
 
-1. Discover — interview, audit, and define the one metric that matters.
-2. Design — motion-first mockups in Figma + Framer, clickable within a week.
-3. Forge — TypeScript, Next.js, Framer Motion, with previews on every commit.
-4. Launch — QA, Lighthouse, WCAG, and SEO checks before handoff.
+1. Audit — score the site's GEO/AEO and pinpoint why AI isn't citing it yet.
+2. Optimize — fix schema, llms.txt, content structure, and crawler access.
+3. Build — where needed, ship a fast server-rendered site engineered to be cited.
+4. Monitor — track citations across ChatGPT, Perplexity, and AI Overviews, then iterate.
 
 ## Contact
 

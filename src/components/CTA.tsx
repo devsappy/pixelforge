@@ -24,24 +24,24 @@ export default function CTA() {
       >
         <TiltCard className="cta__inner" max={4}>
           <h2>
-            Got a brand that
+            Want AI to
             <br />
-            deserves <em>more?</em>
+            <em>recommend you?</em>
           </h2>
-          <p>Tell us about it. We reply within a day. No pitch decks, no sales calls.</p>
+          <p>Get a free AI-citation audit. We reply within a day. No pitch decks, no sales calls.</p>
           <form className="cta__form" onSubmit={onSubmit}>
             <label>
               <span>Your email</span>
               <input
                 type="email"
                 required
-                placeholder="you@brand.com"
+                placeholder="you@business.com"
                 autoComplete="email"
               />
             </label>
             <label>
-              <span>What are you building?</span>
-              <input type="text" required placeholder="A cinematic site for…" />
+              <span>Your website</span>
+              <input type="text" required placeholder="yourbusiness.com" />
             </label>
             <button type="submit">{label}</button>
           </form>
