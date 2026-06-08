@@ -59,7 +59,7 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p className="hero__sub" variants={rise}>
-            Pixel Forge is a design &amp; engineering studio. We turn brands into
+            GPTShopExpert is a design &amp; engineering studio. We turn brands into
             precise, high-performance websites — engineered end-to-end, shipped at
             60fps, measured on every metric.
           </motion.p>

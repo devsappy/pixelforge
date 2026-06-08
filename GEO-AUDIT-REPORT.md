@@ -1,4 +1,4 @@
-# GEO Audit Report: Pixel Forge
+# GEO Audit Report: GPTShopExpert
 
 **Audit Date:** 2026-06-05
 **URL:** Not deployed — analyzed from source (`index.html` + React/Vite SPA in this workspace)
@@ -11,7 +11,7 @@
 
 **Overall GEO Score: 13/100 (Critical)**
 
-Pixel Forge is a beautifully engineered, animation-rich single-page site — but from a GEO/SEO standpoint it is currently **near-invisible to both search engines and AI systems**. The root cause is that 100% of the content is client-side rendered: the HTML shipped to crawlers is an empty `<div id="root">`, so AI crawlers (which mostly don't execute JavaScript) see *nothing*. On top of that, the site has **zero structured data, no robots.txt, no sitemap, no llms.txt, no Open Graph tags, no canonical URL, and no real brand footprint**. The good news: the foundations (semantic HTML, clear copy, a real service offering) are solid, so once content is made server-visible and the technical basics are added, the score can rise dramatically with relatively contained effort.
+GPTShopExpert is a beautifully engineered, animation-rich single-page site — but from a GEO/SEO standpoint it is currently **near-invisible to both search engines and AI systems**. The root cause is that 100% of the content is client-side rendered: the HTML shipped to crawlers is an empty `<div id="root">`, so AI crawlers (which mostly don't execute JavaScript) see *nothing*. On top of that, the site has **zero structured data, no robots.txt, no sitemap, no llms.txt, no Open Graph tags, no canonical URL, and no real brand footprint**. The good news: the foundations (semantic HTML, clear copy, a real service offering) are solid, so once content is made server-visible and the technical basics are added, the score can rise dramatically with relatively contained effort.
 
 ### Score Breakdown
 
@@ -36,7 +36,7 @@ Pixel Forge is a beautifully engineered, animation-rich single-page site — but
    No JSON-LD anywhere. AI engines have no machine-readable entity to recognize. Add `Organization`, `WebSite`, and `Service` schema at minimum.
 
 3. **Brand is not a recognizable entity.**
-   "Pixel Forge" has no live domain, no Wikipedia/LinkedIn/Crunchbase presence, and the contact domain (`hello@pixelforge.studio`) and all social links (`href="#"`) are placeholders ([Footer.tsx:21-28](src/components/Footer.tsx#L21-L28)). AI systems cannot cite a brand they cannot find.
+   "GPTShopExpert" has no live domain, no Wikipedia/LinkedIn/Crunchbase presence, and the contact domain (`hello@gptshopexpert.com`) and all social links (`href="#"`) are placeholders ([Footer.tsx:21-28](src/components/Footer.tsx#L21-L28)). AI systems cannot cite a brand they cannot find.
 
 ---
 
@@ -75,7 +75,7 @@ Pixel Forge is a beautifully engineered, animation-rich single-page site — but
 ## Category Deep Dives
 
 ### AI Citability (15/100)
-The *latent* copy is strong and on-brand, but it is (a) invisible pre-hydration and (b) structured for vibe, not extraction. AI systems cite **self-contained, declarative passages** ("Pixel Forge is a design and engineering studio that builds Next.js websites in 6–10 weeks, with performance audits on every project."). The site currently offers fragments like "We forge them." and "Calm on the outside. Relentless on the inside." Rewrite at least one section per page into a clear, quotable answer block. Once SSR is in place, citability is the highest-leverage content lever.
+The *latent* copy is strong and on-brand, but it is (a) invisible pre-hydration and (b) structured for vibe, not extraction. AI systems cite **self-contained, declarative passages** ("GPTShopExpert is a design and engineering studio that builds Next.js websites in 6–10 weeks, with performance audits on every project."). The site currently offers fragments like "We forge them." and "Calm on the outside. Relentless on the inside." Rewrite at least one section per page into a clear, quotable answer block. Once SSR is in place, citability is the highest-leverage content lever.
 
 ### Brand Authority (5/100)
 Effectively nonexistent: no live domain, placeholder social links, no third-party mentions, no Wikipedia/Reddit/LinkedIn/Clutch/Awwwards profile (despite "Awwwards SOTD" claimed in copy). Entity recognition by AI requires corroborating off-site signals. This is mostly off-page work and will be the slowest dimension to move.

@@ -1,5 +1,5 @@
-# robots.txt — Pixel Forge
-# Replace https://pixelforge.studio with your real domain after deploying.
+# robots.txt — GPTShopExpert
+# Replace https://gptshopexpert.com with your real domain after deploying.
 
 User-agent: *
 Allow: /
@@ -41,4 +41,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://pixelforge.studio/sitemap.xml
+Sitemap: https://gptshopexpert.com/sitemap.xml

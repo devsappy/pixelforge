@@ -81,7 +81,7 @@ export default function PencilSketch() {
           fill="#1a1a1a"
           letterSpacing="0.08em"
         >
-          <text x="72" y="42">PIXEL FORGE / FIG.01</text>
+          <text x="72" y="42">GPTSHOPEXPERT / FIG.01</text>
           <text x="72" y="54" opacity="0.55">WIREFRAME STUDY · 2H GRAPHITE</text>
           <text x="508" y="42" textAnchor="start">SCALE 1:1</text>
           <text x="508" y="54" opacity="0.55" textAnchor="start">SHEET A / PROJECT WEB</text>

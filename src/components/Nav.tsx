@@ -16,7 +16,7 @@ export default function Nav() {
       transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
       style={{ background: bg, left: "50%" }}
     >
-      <a href="#top" className="nav__logo" aria-label="Pixel Forge home">
+      <a href="#top" className="nav__logo" aria-label="GPTShopExpert home">
         <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
           <path
             d="M16 2 L30 10 L30 22 L16 30 L2 22 L2 10 Z"
@@ -32,7 +32,7 @@ export default function Nav() {
           />
         </svg>
         <span>
-          Pixel<em>Forge</em>
+          GPTShop<em>Expert</em>
         </span>
       </a>
       <nav className="nav__links" aria-label="Primary">

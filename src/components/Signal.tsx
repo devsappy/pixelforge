@@ -53,7 +53,7 @@ export default function Signal() {
               website is the only salesperson that never sleeps, never asks for
               a raise, and is on every timezone at once."
             </p>
-            <strong>— Pixel Forge Studio Brief</strong>
+            <strong>— GPTShopExpert Studio Brief</strong>
           </div>
         </aside>
       </div>

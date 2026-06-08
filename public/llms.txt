@@ -1,14 +1,14 @@
-# Pixel Forge
+# GPTShopExpert
 
-> Pixel Forge is a small, remote-first design & engineering studio that builds cinematic, high-performance websites. The team handles strategy, design, motion, and full-stack engineering end-to-end — no juniors, no account managers, no handoffs.
+> GPTShopExpert is a small, remote-first design & engineering studio that builds cinematic, high-performance websites. The team handles strategy, design, motion, and full-stack engineering end-to-end — no juniors, no account managers, no handoffs.
 
-Pixel Forge designs and engineers websites in-house, from first pixel to production. Typical projects ship on Next.js with a headless CMS, run at 60fps, and are measured against Core Web Vitals (CLS < 0.05, INP under 200ms) and WCAG 2.2 AA accessibility.
+GPTShopExpert designs and engineers websites in-house, from first pixel to production. Typical projects ship on Next.js with a headless CMS, run at 60fps, and are measured against Core Web Vitals (CLS < 0.05, INP under 200ms) and WCAG 2.2 AA accessibility.
 
 ## Services
 
-- [Signature websites](https://pixelforge.studio/#services): Full strategy → design → build over 6–10 weeks. Discovery workshop, motion-first design in Figma & Framer, Next.js build on a headless CMS, performance & accessibility audit. From $18k.
-- [Landing pages](https://pixelforge.studio/#services): One conversion-focused page in 10 days. Copy & layout workshop, cinematic hero & scroll story, A/B-ready component system, analytics wiring. From $6k.
-- [Growth & iteration retainer](https://pixelforge.studio/#services): Ongoing design + engineering capacity. Dedicated designer & engineer, weekly async ships, quarterly performance & SEO, direct Slack channel. From $9k/mo.
+- [Signature websites](https://gptshopexpert.com/#services): Full strategy → design → build over 6–10 weeks. Discovery workshop, motion-first design in Figma & Framer, Next.js build on a headless CMS, performance & accessibility audit. From $18k.
+- [Landing pages](https://gptshopexpert.com/#services): One conversion-focused page in 10 days. Copy & layout workshop, cinematic hero & scroll story, A/B-ready component system, analytics wiring. From $6k.
+- [Growth & iteration retainer](https://gptshopexpert.com/#services): Ongoing design + engineering capacity. Dedicated designer & engineer, weekly async ships, quarterly performance & SEO, direct Slack channel. From $9k/mo.
 
 ## Capabilities
 
@@ -34,5 +34,5 @@ Pixel Forge designs and engineers websites in-house, from first pixel to product
 
 ## Contact
 
-- Email: hello@pixelforge.studio
+- Email: hello@gptshopexpert.com
 - Engagement: Remote-first, worldwide. Replies within one business day.

@@ -57,7 +57,7 @@ export default function Services() {
         <h2 className="section__title">
           Three ways to work
           <br />
-          <em>with Pixel Forge.</em>
+          <em>with GPTShopExpert.</em>
         </h2>
       </motion.header>
 

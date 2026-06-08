@@ -6,7 +6,7 @@ const items = [
   "3D Parallax",
   "60fps Always",
   "Design Engineers",
-  "Pixel Forge",
+  "GPTShopExpert",
 ];
 
 export default function Marquee() {
