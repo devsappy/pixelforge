@@ -23,22 +23,26 @@ export default function Seo({ title, description, path, type = "website", image,
   const img = image ?? `${SITE}/og-image.svg`;
   const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
+  // Meta text is rendered all-lowercase by request.
+  const t = title.toLowerCase();
+  const d = description.toLowerCase();
+
   return (
     <Head>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{t}</title>
+      <meta name="description" content={d} />
       <link rel="canonical" href={url} />
 
       <meta property="og:type" content={type} />
-      <meta property="og:site_name" content="GPTShopExpert" />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:site_name" content="gptshopexpert" />
+      <meta property="og:title" content={t} />
+      <meta property="og:description" content={d} />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={img} />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:title" content={t} />
+      <meta name="twitter:description" content={d} />
       <meta name="twitter:image" content={img} />
 
       {blocks.map((block, i) => (
