@@ -32,6 +32,20 @@ GPTShopExpert specializes in Generative Engine Optimization (GEO) and Answer Eng
 3. Build — where needed, ship a fast server-rendered site engineered to be cited.
 4. Monitor — track citations across ChatGPT, Perplexity, and AI Overviews, then iterate.
 
+## Guides
+
+- [What is Generative Engine Optimization (GEO)?](https://gptshopexpert.com/guides/what-is-geo): Plain-English explanation of GEO and how AI engines decide what to cite.
+- [What is Answer Engine Optimization (AEO)?](https://gptshopexpert.com/guides/what-is-aeo): How to make content the direct answer inside AI assistants.
+- [GEO vs SEO](https://gptshopexpert.com/guides/geo-vs-seo): The difference between ranking in results and being cited in AI answers.
+- [How to get your business cited by ChatGPT](https://gptshopexpert.com/guides/how-to-rank-in-chatgpt): A practical checklist for ChatGPT citations.
+- [llms.txt explained](https://gptshopexpert.com/guides/llms-txt): What llms.txt is and how to create one.
+
+## Key pages
+
+- [Services](https://gptshopexpert.com/services): All GEO/AEO services.
+- [FAQ](https://gptshopexpert.com/faq): Common questions about GEO, AEO, and AI citations.
+- [About](https://gptshopexpert.com/about): Who we are and how we work.
+
 ## Contact
 
 - Email: hello@gptshopexpert.com

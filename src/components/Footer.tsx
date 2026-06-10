@@ -10,22 +10,21 @@ export default function Footer() {
         </div>
         <div className="footer__cols">
           <div>
-            <h4>Agency</h4>
-            <a href="#work">Results</a>
-            <a href="#skills">Capabilities</a>
-            <a href="#services">Services</a>
+            <h4>Services</h4>
+            <a href="/services/ai-citation-audit">AI Citation Audit</a>
+            <a href="/services/geo-ready-websites">GEO-Ready Websites</a>
+            <a href="/services/geo-management">GEO Management</a>
+          </div>
+          <div>
+            <h4>Learn</h4>
+            <a href="/guides">Guides</a>
+            <a href="/faq">FAQ</a>
+            <a href="/about">About</a>
           </div>
           <div>
             <h4>Contact</h4>
             <a href="mailto:hello@gptshopexpert.com">hello@gptshopexpert.com</a>
-            <a href="#contact">Free audit</a>
-            <a href="#services">For agencies</a>
-          </div>
-          <div>
-            <h4>Elsewhere</h4>
-            <a href="#">LinkedIn</a>
-            <a href="#">X</a>
-            <a href="#">GitHub</a>
+            <a href="/#contact">Free audit</a>
           </div>
         </div>
       </div>
