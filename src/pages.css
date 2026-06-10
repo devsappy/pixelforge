@@ -165,10 +165,20 @@
 /* ===== CARD GRID (guides hub, services overview) ===== */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
+}
+@media (max-width: 1000px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .card {
   display: flex;
@@ -247,6 +257,66 @@
 .page__cta p {
   color: var(--text-3);
   margin: 0 0 28px;
+}
+
+/* ===== ANIMATED AUDIT CALL-OUT CARD (fills the guide grid) ===== */
+.card--cta {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface);
+  justify-content: flex-end;
+  min-height: 260px;
+}
+.card--cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 90% at 70% 0%, rgba(212, 255, 58, 0.1), transparent 60%);
+  pointer-events: none;
+}
+.card--cta h3,
+.card--cta p,
+.card--cta .card__more {
+  position: relative;
+  z-index: 2;
+}
+.card--cta .card__more {
+  color: var(--accent);
+}
+
+/* sonar / citation-pulse motif */
+.cta-radar {
+  position: absolute;
+  top: 28px;
+  right: 28px;
+  width: 92px;
+  height: 92px;
+  z-index: 1;
+}
+.cta-radar__ring {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 92px;
+  height: 92px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+}
+.cta-radar__core {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 16px 2px rgba(212, 255, 58, 0.6);
+}
+@media (prefers-reduced-motion: reduce) {
+  .cta-radar__ring {
+    display: none;
+  }
 }
 
 /* ===== Misc ===== */

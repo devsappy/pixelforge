@@ -1,5 +1,35 @@
+import { motion } from "framer-motion";
 import Seo, { breadcrumb } from "../components/Seo";
 import { guides } from "../content/guides";
+
+/** Animated audit call-out that fills the final grid cell. */
+function AuditCallout() {
+  return (
+    <a className="card card--cta" href="/#contact">
+      <div className="cta-radar" aria-hidden>
+        {[0, 1, 2].map((i) => (
+          <motion.span
+            key={i}
+            className="cta-radar__ring"
+            initial={{ scale: 0.25, opacity: 0.55 }}
+            animate={{ scale: 1.7, opacity: 0 }}
+            transition={{
+              duration: 2.6,
+              repeat: Infinity,
+              delay: i * 0.85,
+              ease: "easeOut",
+            }}
+          />
+        ))}
+        <span className="cta-radar__core" />
+      </div>
+      <span className="card__kicker">Free audit</span>
+      <h3>Where do you rank in AI?</h3>
+      <p>Get a free AI-citation audit and see exactly where you stand in 5 days.</p>
+      <span className="card__more">Get a free audit →</span>
+    </a>
+  );
+}
 
 export default function Guides() {
   return (
@@ -36,6 +66,7 @@ export default function Guides() {
               <span className="card__more">Read →</span>
             </a>
           ))}
+          <AuditCallout />
         </div>
       </main>
     </>
